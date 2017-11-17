@@ -3,7 +3,7 @@
 
 import sys
 
-
+#Method to find odd number and add to the list
 def  odd(x):
      if (x % 2 != 0):
      	odd_LIST.append(x)
