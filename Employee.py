@@ -33,3 +33,10 @@ setattr(emp1, 'age',32)
 print("************ Employee Details ****************\n")
 print("Name: ",emp1.name, ", Salary: ", emp1.salary, ", Age: ", emp1.age)
 
+print("**** Class details *** \n")
+
+print("Employee.__doc__:", Employee.__doc__)
+print("Employee.__name__:", Employee.__name__)
+print("Employee.__module__:", Employee.__module__)
+print("Employee.__bases__:", Employee.__bases__)
+print("Employee.__dict__:", Employee.__dict__)
